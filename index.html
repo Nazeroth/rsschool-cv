@@ -8,7 +8,7 @@
 </head>
 
 <body>
-  <div class="main-container">
+  <div>
     <header>
       <img class="photo" src="https://www.pngjoy.com/pngl/128/2599828_pepe-the-frog-pepe-meme-bad-boy-transparent.png"
         alt="photo" height="150" />
@@ -39,7 +39,7 @@
       <section>
         <h2>Summary</h2>
         <p>My goal is to become web developer in future</p>
-      </p>
+        </p>
       </section>
       <section>
         <h2>Skills</h2>
@@ -61,12 +61,30 @@
         </ul>
       </section>
       <section>
+        <h2>Code example:</h2>
+        <code>
+          <pre>
+          function count(string) {
+            return string.split("").reduce((acc, char) => {
+              if (acc[char]) {
+                acc[char] = acc[char] + 1;
+              } else {
+                acc[char] = 1;
+              }
+              return acc;
+            }, {});
+          }
+          </pre>
+        </code>
+      </section>
+      <section>
         <h2>Education</h2>
         <ul>
           <li>
-            <a href="https://en.wikipedia.org/wiki/Kharkiv_National_University_of_Radioelectronics">NURE</a> - Сomputer intelligent technologies and systems
+            <a href="https://en.wikipedia.org/wiki/Kharkiv_National_University_of_Radioelectronics">NURE</a> - Сomputer
+            intelligent technologies and systems
           </li>
-         </ul>
+        </ul>
       </section>
       <section>
         <h3>English level</h3>
