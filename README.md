@@ -1,1 +1,1 @@
-https://nazeroth.github.io/rsschool-cv/cv in it
+https://nazeroth.github.io/rsschool-cv
